@@ -1,0 +1,14 @@
+.app-container {
+    background-image: url("/assets/fnp_logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+
+
+h1{
+    color:green;
+    font-size: 50px;
+    text-align:center;
+}
