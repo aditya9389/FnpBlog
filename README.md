@@ -37,7 +37,7 @@ docker run --name redis-container -p 6379:6379 -d redis:latest
 ### Backend Setup
 1. Clone the repository and navigate to the backend directory:
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/aditya9389/FnpBlog.git
    cd fnp-blog-backend
    ```
 2. Configure the database in `application.properties`.
