@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57552389-7a2f-47b0-99be-758e32f77da0" name="Changes" comment="google login">
-      <change afterPath="$PROJECT_DIR$/../../mergetable/src/main/java/com/table/merge/eventlistner/DataChangeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mergetable/src/main/java/com/table/merge/eventlistner/DataChangeEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mergetable/src/main/java/com/table/merge/eventlistner/EntityChangeListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../mergetable/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mergetable/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../mergetable/src/main/java/com/table/merge/Model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mergetable/src/main/java/com/table/merge/Model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../mergetable/src/main/java/com/table/merge/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mergetable/src/main/java/com/table/merge/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../mergetable/src/main/java/com/table/merge/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../mergetable/src/main/java/com/table/merge/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -35,12 +30,12 @@
     &quot;assignee&quot;: &quot;aditya9389&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/aditya9389/Projects.git&quot;,
-    &quot;accountId&quot;: &quot;8df3033f-2895-4df4-a6ea-62a1f849c301&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aditya9389/FnpBlog.git",
+    "accountId": "8df3033f-2895-4df4-a6ea-62a1f849c301"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -55,26 +50,26 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2svZsmMLL3vbGQWsyOL7oPI1pxT" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.FnpblogApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.FnpblogApplication.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="FnpBlog" />
@@ -154,6 +149,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
     <MESSAGE value="google login" />
     <option name="LAST_COMMIT_MESSAGE" value="google login" />
   </component>

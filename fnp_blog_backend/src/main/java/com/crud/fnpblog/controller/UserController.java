@@ -18,12 +18,11 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/users")
 @RequiredArgsConstructor
-public class UserController {
+public class    UserController {
 
     @Autowired
     private FcmService fcmService;
 
-    private final UserRepository userRepository;
     private final UserService userService;
     @Autowired
     private JwtUtil jwtUtil;
