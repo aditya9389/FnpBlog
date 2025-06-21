@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { AuthService } from '../services/auth.service';
 import { FormsModule } from '@angular/forms';
+import { environment } from '../../environments/environment'; // Adjust the path as necessary
 
 @Component({
     selector: 'app-create-note',
@@ -25,7 +26,7 @@ export class CreateNoteComponent {
 
         const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
 
-        this.http.post('http://localhost:8080/api/notes/createNote', this.note, { headers }).subscribe(
+        this.http.post(`${environment.apiUrl}/notes/createNote`, this.note, { headers }).subscribe(
             () => {
                 alert('Note saved successfully!');
                 this.router.navigate(['/dashboard']);

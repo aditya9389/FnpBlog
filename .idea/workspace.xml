@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57552389-7a2f-47b0-99be-758e32f77da0" name="Changes" comment="google login">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fnp_blog_backend/src/main/resources/application-docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fnp_blog_backend/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnp_blog_backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/fnp_blog_backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnp_blog_backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/fnp_blog_backend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/Redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/Redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/controller/NoteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/fcmNotification/FireBaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/fcmNotification/FireBaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/fnp_blog_backend/src/main/java/com/crud/fnpblog/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnpblog-frontend/src/app/create-note/create-note.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fnpblog-frontend/src/app/create-note/create-note.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnpblog-frontend/src/app/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fnpblog-frontend/src/app/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnpblog-frontend/src/app/login/googleLogin.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fnpblog-frontend/src/app/login/googleLogin.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnpblog-frontend/src/app/login/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fnpblog-frontend/src/app/login/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnpblog-frontend/src/app/register/register.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fnpblog-frontend/src/app/register/register.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnpblog-frontend/src/app/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fnpblog-frontend/src/app/services/auth.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +43,12 @@
     &quot;assignee&quot;: &quot;aditya9389&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aditya9389/FnpBlog.git",
-    "accountId": "8df3033f-2895-4df4-a6ea-62a1f849c301"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aditya9389/FnpBlog.git&quot;,
+    &quot;accountId&quot;: &quot;8df3033f-2895-4df4-a6ea-62a1f849c301&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -50,72 +63,62 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2svZsmMLL3vbGQWsyOL7oPI1pxT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.FnpblogApplication.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.FnpblogApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Docker.docker-compose.yml.redis: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="FnpBlog" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="FnpBlog" />
-      <option name="filePath" />
+}</component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="FnpBlog" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="FnpBlog" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
+    <configuration name="docker-compose.yml.redis: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="redis" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.redis: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

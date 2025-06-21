@@ -44,7 +44,7 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/users/register", "/api/users/login", "/api/users/sendNotif").permitAll()
+                        .requestMatchers("/users/register", "/users/login", "/users/sendNotif").permitAll()
                         .requestMatchers("/oauth2/**", "/login/oauth2/**").permitAll() // Allow Google OAuth2 endpoints
                         .anyRequest().authenticated()
                 )
@@ -62,7 +62,11 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         System.out.println("------------into corsConfigurationSourse method of Security method who returns allowed sources----------");
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(List.of("http://localhost:4200"));
+        configuration.setAllowedOrigins(List.of(
+            "http://localhost:4200",                        // for local dev
+            "http://fnpblog-frontend",                      // for Docker internal calls
+            "https://fnp-blog-frontend.vercel.app"          // for deployed frontend
+        ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("Authorization", "Content-Type"));
         configuration.setAllowCredentials(true);

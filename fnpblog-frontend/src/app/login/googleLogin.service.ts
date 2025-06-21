@@ -1,11 +1,13 @@
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../services/auth.service';
+import { environment } from '../../environments/environment'; // Adjust the path as necessary
+import { HttpClient } from '@angular/common/http'; 
 @Injectable({
   providedIn: 'root'
 })
 export class GoogleLoginService {
-  private loginUrl = 'http://localhost:8080/oauth2/authorization/google';
+  private loginUrl = `${environment.apiUrl}/oauth2/authorization/google`;
 
   constructor(private router: Router
     , private authService: AuthService

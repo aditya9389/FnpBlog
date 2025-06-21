@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/notes")
+@RequestMapping("/notes")
 @CrossOrigin(origins = "http://localhost:3000") // Adjust frontend URL if needed
 public class NoteController {
 

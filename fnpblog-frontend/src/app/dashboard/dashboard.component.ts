@@ -4,6 +4,7 @@ import { Router, RouterModule } from '@angular/router';
 import { AuthService } from '../services/auth.service';
 import { CommonModule } from '@angular/common';
 import { Messaging, getToken } from '@angular/fire/messaging';
+import { environment } from '../../environments/environment'; // Adjust the path as necessary
 @Component({
   selector: 'app-dashboard',
   standalone: true,
@@ -28,7 +29,7 @@ export class DashboardComponent {
     console.log('Fetching notes...');
     console.log('Token:', token);
 
-    this.http.get('http://localhost:8080/api/notes/getNotes', {
+    this.http.get(`${environment.apiUrl}/notes/getNotes`, {
       headers: { Authorization: `Bearer ${token}` }
     }).subscribe(
       (response: any) => {
@@ -45,21 +46,22 @@ export class DashboardComponent {
   logout() {
     const token = this.authservice.getToken();
     const headers = { Authorization: `Bearer ${token}` };
-  
-    this.http.post('http://localhost:8080/api/users/logout', {}, { 
+          this.authservice.removeToken();
+        this.router.navigate(['/login']);
+    this.http.post(`${environment.apiUrl}/users/logout`, {}, { 
       headers, 
       responseType: 'text'  // 👈 Fix empty response issue
     }).subscribe({
       next: (response) => {
         console.log('Logged out successfully:', response);
-        this.authservice.removeToken();
-        this.router.navigate(['/login']);
+
       },
       error: (error) => {
         console.error('Error logging out:', error);
       }
     });
   
+    // this.authservice.removeToken();
     console.log("Token before logout:", this.authservice.getToken()); // This will still show token
   }
   
